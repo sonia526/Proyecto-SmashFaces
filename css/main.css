@@ -1,0 +1,28 @@
+*{
+	padding: 0;
+	margin:0;
+   /*outline: 1px solid black;*/
+}
+.imagen{
+	
+	width: 300px;
+}
+/*///columna dos*/
+.columna-dos{
+	background-color: #56554F;
+	height: 550px;
+}
+.titulo{
+	color: white;
+}
+.boton{
+	background:  orange;
+	width: 200px;
+	padding: 5px;
+	border-radius: 5px;
+	border-style: none;
+}
+input{
+	width: 400px;
+	padding: 5px;
+}
