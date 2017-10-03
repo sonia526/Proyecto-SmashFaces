@@ -1,6 +1,8 @@
 *{
+	
 	padding: 0;
 	margin:0;
+	font-size: 20px;
    /*outline: 1px solid black;*/
 }
 .imagen{
@@ -9,8 +11,8 @@
 }
 /*///columna dos*/
 .columna-dos{
-	background-color: #56554F;
-	height: 550px;
+	background-color: #1C2833;
+	height: 380px;
 }
 .titulo{
 	color: white;
@@ -25,4 +27,34 @@
 input{
 	width: 400px;
 	padding: 5px;
+}
+.text-color{
+	color: white;
+}
+.text-color, .selector{
+	display: inline-block;
+	font-family: 'Rokkitt', serif;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+hr { 
+   height: 5px;
+   width: 5%; 
+   margin-left: 10px;
+ }
+#puntos{
+	margin-left:30%;
+}
+.text-header{
+	color:white;
+	font-family: 'Rokkitt', serif;
+}
+.selector{
+	width: 300px;
+	background: #ABB2B9;
+	margin-left:15px;	
+}
+.parrafo{
+	font-family: 'Roboto', sans-serif;
+	color: white;
 }

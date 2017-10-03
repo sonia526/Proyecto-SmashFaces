@@ -2,31 +2,42 @@
 <html>
 <head>
 	<title>adivina</title>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link rel="stylesheet" href="css/main.css">
 </head>
 <body background="assets/img/estrellas.gif">
 	<header>
+		<div class="container">
+			<div class="row">
+				<div class=" col-xs-12 col-sm-6 col-md-8  col-lg-12">
+					<h1 class="text-header" >Smash Faces</h1>
+		<hr>
+		<p class="parrafo" >Bienvenido al juego de Smash Faces, tu misión es poder Identificar a todas tus compañeras de la clase ingresando para ellos su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
 		<ul >
-			<li class="">Elige tu sede:</li>
-			<li>
-				<select name="nombres">
+			<li class="text-color">Elige tu sede:</li>
+			
+				<select  class="selector" name="nombres">
 				   <option value="1">lima</option> 
-				   <option value="2">mexico</option> 
-				   <option value="4">chile</option>
-				   <option value="5">arequipa</option>
-				    
+				   <option value="2">mexico</option>   
 	            </select>
-			</li>
-	        <li>puntos:(0 puntos)</li>
+			
+	        
+	        <li class="text-color " id="puntos">Puntos:<div></div></li>
 		</ul>
+					
+				</div>
+			</div>
+		</div>
 	</header>
-<div class="container-fluid">
+<div class="container">
 	<div class="row">
-		  <div class="col-xs-12 col-sm-6 col-md-8 col-lg-4">
+		  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 		  	<img class="img-responsive imagen" src="assets/img/5-lima/carito-juarez.jpg" alt="Chania">
 		  </div>
-	  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-8 columna-dos text-center"><br><br><br>
+	  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 columna-dos text-center"><br><br><br>
          <h3 class="titulo"  >Ingresa su nombre</h3><br>
          <input class="input" placeholder="nombre" type="text"><br><br><br><br>
          <button class=" titulo boton">COMPROBAR</button>
