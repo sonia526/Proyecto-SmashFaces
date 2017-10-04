@@ -3,6 +3,8 @@
 <head>
 	<title>adivina</title>
 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -16,39 +18,59 @@
 					<h1 class="text-header" >Smash Faces</h1>
 		<hr>
 		<p class="parrafo" >Bienvenido al juego de Smash Faces, tu misión es poder Identificar a todas tus compañeras de la clase ingresando para ellos su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
-		<ul >
-			<li class="text-color">Elige tu sede:</li>
 			
-				<select  class="selector" name="nombres">
-				   <option value="1">lima</option> 
-				   <option value="2">mexico</option>   
-	            </select>
-			
-	        
-	        <li class="text-color " id="puntos">Puntos:<div></div></li>
-		</ul>
-					
+
 				</div>
 			</div>
 		</div>
 	</header>
-<div class="container">
-	<div class="row">
-		  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-		  	<img class="img-responsive imagen" src="assets/img/5-lima/carito-juarez.jpg" alt="Chania">
-		  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 columna-dos text-center"><br><br><br>
-         <h3 class="titulo"  >Ingresa su nombre</h3><br>
-         <input class="input" placeholder="nombre" type="text"><br><br><br><br>
-         <button class=" titulo boton">COMPROBAR</button>
-	  </div>
-   </div>
-</div>
+	<!-- seccion juego -->
+<section id="juego">
+          <div class="container">
+              <div class="row puntaje">
+                  <div class="col-md-6">
+                        <div class="form-inline">
+                          <label for="sel1" class="parrafo">Elige tu sede: </label>
+                          <select class="form-control" id="sel1">
+                            <option value="" hidden="">Sede:</option>
+                            <option value="peru">Lima</option>
+                            <option value="mexico">Mexico</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-6 puntaje">
+                        <p class="parrafo">Puntos:</p><span id="puntos" class="parrafo">0</span>
+                      </div>
+                  </div>
+                  <!-- parte del puntaje y sedes -->
+                  <div class="row" id="fotos">
+                      <div class="col-md-5">
+                        <div id="coder"><img src=""></div>
+                      </div>
+                      <!-- parte de la image -->
+                      <div class="col-md-7 center" id="nombre">
+                        <center>
+                        <form>
+                          <div class="form-horizontal">
+                           <label for="input" class="white">Ingresa su nombre: </label>
+                            <input type="text" class="form-control" placeholder="Ingrese nombre">
+                          <button type="submit" class="btn">COMPROBAR</button><br>
+                          </div>
+                          <span class="white" id="alert"></span>
+                        </form>
+                        </center>
+                      </div>
+                  </div>
+              </div>
+      </section>
+<!---probando -->
+
 	
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/codigo.js"></script>
+    <script src="js/peru.js"></script>
+    <script src="js/mexico.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/codigo.js" ></script>
 </body>
 </html>

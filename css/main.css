@@ -5,29 +5,19 @@
 	font-size: 20px;
    /*outline: 1px solid black;*/
 }
-.imagen{
-	
-	width: 300px;
-}
-/*///columna dos*/
-.columna-dos{
-	background-color: #1C2833;
-	height: 380px;
-}
 .titulo{
 	color: white;
 }
-.boton{
-	background:  orange;
+.btn{
+	margin-top: 10px;
+	background-color: #F9A91A !important;
+    color: white !important;
 	width: 200px;
 	padding: 5px;
 	border-radius: 5px;
 	border-style: none;
 }
-input{
-	width: 400px;
-	padding: 5px;
-}
+
 .text-color{
 	color: white;
 }
@@ -42,19 +32,45 @@ hr {
    width: 5%; 
    margin-left: 10px;
  }
-#puntos{
-	margin-left:30%;
-}
 .text-header{
 	color:white;
 	font-family: 'Rokkitt', serif;
-}
-.selector{
-	width: 300px;
-	background: #ABB2B9;
-	margin-left:15px;	
 }
 .parrafo{
 	font-family: 'Roboto', sans-serif;
 	color: white;
 }
+/*otra seccion*/
+#nombre {
+    background-color: #333333;
+    height: 400px;
+    padding: 4em;
+}
+
+#coder, #nombre {
+    display: inline-flex;
+}
+img {
+    height: 400px;
+    width: 100%;
+}
+#coder {
+    height: 400px;
+    width: 100%;
+    background-color: lightyellow;
+}
+.white{
+	color: white;
+	width: 200px;
+}
+.form-control{
+	width: 200px;
+
+}
+.puntaje{
+	margin-top: 20px;
+}
+.col-md-5 {
+    padding-right: 0 !important;
+}
+
