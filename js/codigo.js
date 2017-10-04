@@ -8,7 +8,7 @@ $(function(){
 	var tries=0;
 	var displayPictures = function(sede, contenedor, array){
 		indice = tornado(array);
-		foto.attr("src","img/"+sede+"/"+array[indice].image);
+		foto.attr("src","assets/img/"+sede+"/"+array[indice].image);
 		var puntos = $("#puntos");
 		var error = 0;
 
@@ -25,7 +25,7 @@ $(function(){
                 
 				indice = tornado(array);						
 				setTimeout(function(){
-					foto.attr("src","img/"+sede+"/"+array[indice].image);
+					foto.attr("src","assets/img/"+sede+"/"+array[indice].image);
 				},1000);
 
 			}
@@ -40,7 +40,7 @@ $(function(){
 					tries=0;
 					indice = tornado(array);													
 						setTimeout(function(){
-							foto.attr("src","img/"+sede+"/"+array[indice].image);
+							foto.attr("src","assets/img/"+sede+"/"+array[indice].image);
 						},3000);					
 					puntos.text(eval(puntos.text())-0.5);;
                     nombre.val("");
